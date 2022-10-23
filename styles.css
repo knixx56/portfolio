@@ -4,7 +4,7 @@ html{
   scroll-behavior: smooth;
   margin: 0;
 }
-@media and screen(max-width: 600px){
+@media screen and (max-width: 600px){
   nav, .welcome-section, .projects-section{
     width = 100%;
   }
