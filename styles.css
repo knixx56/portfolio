@@ -4,17 +4,31 @@ html{
   scroll-behavior: smooth;
   margin: 0;
 }
+@media and screen(max-width: 600px){
+  nav, .welcome-section, .projects-section{
+    width = 100%;
+  }
+  .nav-list a, projects-section >.project-head{
+  font-size: 1rem;
+  }
+  h1{
+    font-size: 3rem;
+  }
+  h3{
+    font-size: 22px;
+  }
+}
 
 /* nav */
 .nav{
   display: flex;
-justify-content:flex-end;
-width: 100%;
+  justify-content:flex-end;
+  width: 100%;
   position: fixed;
   background: black;
   top: 0;
   left: 0;
- z-index: 4;
+  z-index: 4;
 }
 .nav-list {
   display: flex;
