@@ -1,0 +1,1000 @@
+:root {
+    --ffsd: 0px;
+    --1vw: calc((100vw - var(--sbw, 0px)) / 100);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animated {
+        animation: none !important;
+    }
+}
+
+@media not all and (min-resolution:.001dpcm) {
+    @media {
+        :root {
+            --ffsd: 0.5px;
+        }
+    }
+}
+
+html {
+    zoom: var(--rzf, 1);
+    font-size: max(calc(min(var(--1vw, 1vw), 13.66px) * var(--rfso, 1)), var(--minfs, 0px));
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: calc(1rem * var(--bfso, 1));
+}
+
+body,
+html,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    font-synthesis: none;
+    font-kerning: none;
+    font-variant-ligatures: none;
+    font-feature-settings: "kern" 0, "calt" 0, "liga" 0, "clig" 0, "dlig" 0, "hlig" 0;
+    font-family: unset;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricprecision;
+    white-space: normal;
+}
+
+li {
+    text-align: unset;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Sports World', sans-serif;                                      
+    margin-left: 80px;
+    background-color:#ffde59;
+    border: 5px solid; 
+    border-radius: 10px;
+}
+form{
+   margin-top: 20px;
+  
+}
+.stat{
+    margin-left: 13px;
+}
+#def, #spdef, #spatk, #Atk, #speed{
+margin-left: 15px;
+}
+.iv{
+    margin-left: px;
+}
+input[type=number]{
+    margin-bottom: 8px;
+    
+    width: 5%;
+}
+input[type=submit]:hover{
+    background-color: orange;
+}
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-Regular15263162195051178836.f4a4890561b3fddfd1fd9a1b27b6d4a4.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-Bold13644182954117137290.33696a29f45c1b554a4c12443b998d21.woff2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-RegularItalic16711881996774813.8dbae49e1280328b442be6dfff163124.woff2);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-BoldItalic12646845404018590449.625cf32ea46ae48b58ebd3ff993de469.woff2);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-Regular15263162195051178836.f4a4890561b3fddfd1fd9a1b27b6d4a4.woff2);
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-RegularItalic16711881996774813.8dbae49e1280328b442be6dfff163124.woff2);
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-Regular15263162195051178836.f4a4890561b3fddfd1fd9a1b27b6d4a4.woff2);
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-RegularItalic16711881996774813.8dbae49e1280328b442be6dfff163124.woff2);
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-Regular15263162195051178836.f4a4890561b3fddfd1fd9a1b27b6d4a4.woff2);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-RegularItalic16711881996774813.8dbae49e1280328b442be6dfff163124.woff2);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-Regular15263162195051178836.f4a4890561b3fddfd1fd9a1b27b6d4a4.woff2);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-RegularItalic16711881996774813.8dbae49e1280328b442be6dfff163124.woff2);
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-Bold13644182954117137290.33696a29f45c1b554a4c12443b998d21.woff2);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-BoldItalic12646845404018590449.625cf32ea46ae48b58ebd3ff993de469.woff2);
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-Bold13644182954117137290.33696a29f45c1b554a4c12443b998d21.woff2);
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-BoldItalic12646845404018590449.625cf32ea46ae48b58ebd3ff993de469.woff2);
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-Bold13644182954117137290.33696a29f45c1b554a4c12443b998d21.woff2);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YAFLd8sKbwc-2;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YAFLd8sKbwc/0/CanvaSans-BoldItalic12646845404018590449.625cf32ea46ae48b58ebd3ff993de469.woff2);
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YALBsxcmblk-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YALBsxcmblk/0/Sports%20World-Regular.9375613d0d4684bb7bc.db734f572fa1688c4677915ba0cc4798.woff2);
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/Arimo.7ac02a544211773d9636e056e9da6c35.7.f8f199f09526f79e87644ed227e0f651.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/ArimoBold.927b7dca5b947f69cb8e835f7f743d.98c4d2c0223fc8474641c77f923528e9.woff2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/ArimoItalic.fa87472a877e70c5bce22e42be5c.d257a7100844bc3f98c9021168b6249e.woff2);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/ArimoBoldItalic.08fb930e5cf38bab811efa91.1060345c54d396e76d73f1da7ee200bd.woff2);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/Arimo.7ac02a544211773d9636e056e9da6c35.7.f8f199f09526f79e87644ed227e0f651.woff2);
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/ArimoItalic.fa87472a877e70c5bce22e42be5c.d257a7100844bc3f98c9021168b6249e.woff2);
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/Arimo.7ac02a544211773d9636e056e9da6c35.7.f8f199f09526f79e87644ed227e0f651.woff2);
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/ArimoItalic.fa87472a877e70c5bce22e42be5c.d257a7100844bc3f98c9021168b6249e.woff2);
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/Arimo.7ac02a544211773d9636e056e9da6c35.7.f8f199f09526f79e87644ed227e0f651.woff2);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/ArimoItalic.fa87472a877e70c5bce22e42be5c.d257a7100844bc3f98c9021168b6249e.woff2);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/Arimo.7ac02a544211773d9636e056e9da6c35.7.f8f199f09526f79e87644ed227e0f651.woff2);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/ArimoItalic.fa87472a877e70c5bce22e42be5c.d257a7100844bc3f98c9021168b6249e.woff2);
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/ArimoBold.927b7dca5b947f69cb8e835f7f743d.98c4d2c0223fc8474641c77f923528e9.woff2);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/ArimoBoldItalic.08fb930e5cf38bab811efa91.1060345c54d396e76d73f1da7ee200bd.woff2);
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/ArimoBold.927b7dca5b947f69cb8e835f7f743d.98c4d2c0223fc8474641c77f923528e9.woff2);
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/ArimoBoldItalic.08fb930e5cf38bab811efa91.1060345c54d396e76d73f1da7ee200bd.woff2);
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/ArimoBold.927b7dca5b947f69cb8e835f7f743d.98c4d2c0223fc8474641c77f923528e9.woff2);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: YACgEZ1cb1Q-0;
+    font-display: swap;
+    src: url(https://s3.amazonaws.com/font-public.canva.com/YACgEZ1cb1Q/0/ArimoBoldItalic.08fb930e5cf38bab811efa91.1060345c54d396e76d73f1da7ee200bd.woff2);
+    font-weight: 900;
+    font-style: italic;
+}
+
+@media (max-width: 375px) {
+    #eRZeLsY2F9AXkxgv {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    #bmjMAEIFswg9Ukj0 {
+        grid-template-columns: 0 101.93240331%;
+        left: -0.96620166%;
+        grid-template-rows: 0 100%;
+    }
+
+    #cWJrvztVw0votIGh {
+        grid-area: 3 / 2 / 7 / 7;
+    }
+
+    #qTntDRlQmMutLI6X {
+        margin-left: 0%;
+        clip-path: polygon(calc(0% + 0%) calc((0 * 20.24292218rem) + 0%), calc(100% - (10.56723407% + 0%)) calc((0 * 20.24292218rem) + 0%), calc(100% - (10.56723407% + 0%)) calc(100% - ((0 * 20.24292218rem) + 0%)), calc(0% + 0%) calc(100% - ((0 * 20.24292218rem) + 0%)));
+        margin-top: 0%;
+        margin-bottom: 0%;
+        grid-area: 2 / 13 / 6 / 16;
+        margin-right: -11.81584172%;
+    }
+
+    #lVEpuJi5zEV6PQba {
+        min-width: 52.28892141rem;
+    }
+
+    #ZcIR57YRsx2j1QLB {
+        grid-area: 4 / 6 / 5 / 15;
+    }
+
+    #n6sitQRwRDRsyiOj {
+        grid-area: 8 / 8 / 17 / 14;
+    }
+
+
+    #GaRWpU26umUEXBvA {
+        font-size: max(0px, calc(2.61094769em - var(--ffsd)));
+    }
+
+    #UHDQrEd40E1WEJa1 {
+        transform: translateX(0);
+        margin-top: calc(max(0px, 2.61094769em) * -0.1);
+        margin-bottom: calc(max(0px, 2.61094769em) * -0.1);
+    }
+
+    #o5f4nZtfxIK39v8P {
+        min-width: 32.64871543rem;
+    }
+
+    #uu2osSNUMznt1HqA {
+        margin-left: -0.43016126%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        grid-area: 9 / 3 / 11 / 9;
+        margin-right: 0%;
+    }
+
+    #W7KmHMZX7dvpBEfR {
+        font-size: max(0px, calc(2.61094769em - var(--ffsd)));
+    }
+
+    #n8Qeaz5O3BqMWrSM {
+        transform: translateX(0);
+        margin-top: calc(max(0px, 2.61094769em) * -0.1);
+        margin-bottom: calc(max(0px, 2.61094769em) * -0.1);
+    }
+
+    #TsMqRjpVANcjeUH5 {
+        min-width: 32.78858401rem;
+    }
+
+    #aadiDsR4tQrZ5WG1 {
+        grid-area: 10 / 11 / 12 / 17;
+    }
+
+    #zNBO9IgBF5qbBPnp {
+        grid-area: 15 / 4 / 16 / 5;
+    }
+
+    #TBOdkj4YhaNx5ZFc {
+        grid-template-columns: 4.26666667rem 0 6.6356113rem 8.22479388rem 5.66560749rem 0.97120661rem 0.95505257rem 10.06311025rem 23.66058857rem 2.63544532rem 0.78945107rem 11.62287738rem 0.05666316rem 1.40119315rem 18.78506587rem 0.00000004rem 4.26666667rem;
+        grid-template-rows: minmax(6.4rem, max-content) 0 minmax(4.91232744rem, max-content) minmax(5.33443644rem, max-content) minmax(6.52503742rem, max-content) 0 0 minmax(1.80165753rem, max-content) 0 minmax(3.11439344rem, max-content) 0 0 minmax(3.42489639rem, max-content) minmax(12.00080761rem, max-content) minmax(3.35055483rem, max-content) minmax(25.13582595rem, max-content) minmax(6.4rem, max-content);
+    }
+
+    #EqgMZ6W5oQYDcgsn {
+        min-height: 100vh;
+    }
+}
+
+@media (min-width: 375.05px) and (max-width: 480px) {
+    #eRZeLsY2F9AXkxgv {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    #bmjMAEIFswg9Ukj0 {
+        grid-template-columns: 0 100.03257708%;
+        left: -0.01628854%;
+        grid-template-rows: 0 100%;
+    }
+
+    #cWJrvztVw0votIGh {
+        grid-area: 3 / 2 / 7 / 7;
+    }
+
+    #qTntDRlQmMutLI6X {
+        margin-left: 0%;
+        clip-path: polygon(calc(0% + 0%) calc((0 * 20.65604305rem) + 0%), calc(100% - (10.56723407% + 0%)) calc((0 * 20.65604305rem) + 0%), calc(100% - (10.56723407% + 0%)) calc(100% - ((0 * 20.65604305rem) + 0%)), calc(0% + 0%) calc(100% - ((0 * 20.65604305rem) + 0%)));
+        margin-top: 0%;
+        margin-bottom: 0%;
+        grid-area: 2 / 13 / 6 / 17;
+        margin-right: -11.81584172%;
+    }
+
+    #lVEpuJi5zEV6PQba {
+        min-width: 53.32415451rem;
+    }
+
+    #ZcIR57YRsx2j1QLB {
+        grid-area: 4 / 6 / 5 / 15;
+    }
+
+    #n6sitQRwRDRsyiOj {
+        grid-area: 8 / 8 / 17 / 14;
+    }
+
+    #eKL1ciZ3WtqGoygg {
+        grid-area: 13 / 10 / 14 / 12;
+    }
+
+    #GaRWpU26umUEXBvA {
+        font-size: max(0px, calc(2.66423234em - var(--ffsd)));
+    }
+
+    #UHDQrEd40E1WEJa1 {
+        transform: translateX(0);
+        margin-top: calc(max(0px, 2.66423234em) * -0.1);
+        margin-bottom: calc(max(0px, 2.66423234em) * -0.1);
+    }
+
+    #o5f4nZtfxIK39v8P {
+        min-width: 33.28312797rem;
+    }
+
+    #uu2osSNUMznt1HqA {
+        margin-left: -0.43016126%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        grid-area: 9 / 3 / 11 / 9;
+        margin-right: 0%;
+    }
+
+    #W7KmHMZX7dvpBEfR {
+        font-size: max(0px, calc(2.66423234em - var(--ffsd)));
+    }
+
+    #n8Qeaz5O3BqMWrSM {
+        transform: translateX(0);
+        margin-top: calc(max(0px, 2.66423234em) * -0.1);
+        margin-bottom: calc(max(0px, 2.66423234em) * -0.1);
+    }
+
+    #TsMqRjpVANcjeUH5 {
+        min-width: 33.42585101rem;
+    }
+
+    #aadiDsR4tQrZ5WG1 {
+        grid-area: 10 / 11 / 12 / 16;
+    }
+
+    #zNBO9IgBF5qbBPnp {
+        grid-area: 15 / 4 / 16 / 5;
+    }
+
+    #TBOdkj4YhaNx5ZFc {
+        grid-template-columns: 3.33333333rem 0 6.77103194rem 8.39264681rem 5.78123214rem 0.99102715rem 0.97454342rem 10.26847984rem 24.14345772rem 2.68922991rem 0.80556232rem 11.860079rem 0.05781951rem 1.42978897rem 19.16843455rem 0.00000002rem 3.33333336rem;
+        grid-template-rows: minmax(5rem, max-content) 0 minmax(5.01257902rem, max-content) minmax(5.44330249rem, max-content) minmax(6.65820145rem, max-content) 0 0 minmax(1.83842605rem, max-content) 0 minmax(3.17795249rem, max-content) 0 0 minmax(3.49479223rem, max-content) minmax(12.24572204rem, max-content) minmax(3.4189335rem, max-content) minmax(25.64880198rem, max-content) minmax(5rem, max-content);
+    }
+
+    #EqgMZ6W5oQYDcgsn {
+        min-height: 100vh;
+    }
+}
+
+@media (min-width: 480.05px) and (max-width: 768px) {
+    #eRZeLsY2F9AXkxgv {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    #bmjMAEIFswg9Ukj0 {
+        grid-template-columns: 0 100%;
+        grid-template-rows: 0 100%;
+    }
+
+    #cWJrvztVw0votIGh {
+        grid-area: 3 / 2 / 7 / 7;
+    }
+
+    #qTntDRlQmMutLI6X {
+        margin-left: 0%;
+        clip-path: polygon(calc(0% + 0%) calc((0 * 20.28718514rem) + 0%), calc(100% - (10.56723407% + 0%)) calc((0 * 20.28718514rem) + 0%), calc(100% - (10.56723407% + 0%)) calc(100% - ((0 * 20.28718514rem) + 0%)), calc(0% + 0%) calc(100% - ((0 * 20.28718514rem) + 0%)));
+        margin-top: 0%;
+        margin-bottom: 0%;
+        grid-area: 2 / 13 / 6 / 17;
+        margin-right: -11.81584172%;
+    }
+
+    #lVEpuJi5zEV6PQba {
+        min-width: 52.33473509rem;
+    }
+
+    #ZcIR57YRsx2j1QLB {
+        grid-area: 4 / 6 / 5 / 15;
+    }
+
+    #n6sitQRwRDRsyiOj {
+        grid-area: 8 / 8 / 17 / 14;
+    }
+
+    #eKL1ciZ3WtqGoygg {
+        grid-area: 13 / 10 / 14 / 12;
+    }
+
+    #GaRWpU26umUEXBvA {
+        font-size: max(0px, calc(2.61665676em - var(--ffsd)));
+    }
+
+    #UHDQrEd40E1WEJa1 {
+        transform: translateX(0);
+        margin-top: calc(max(0px, 2.61665676em) * -0.1);
+        margin-bottom: calc(max(0px, 2.61665676em) * -0.1);
+    }
+
+    #o5f4nZtfxIK39v8P {
+        min-width: 32.65158403rem;
+    }
+
+    #uu2osSNUMznt1HqA {
+        margin-left: -0.43016126%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        grid-area: 9 / 3 / 11 / 9;
+        margin-right: 0%;
+    }
+
+    #W7KmHMZX7dvpBEfR {
+        font-size: max(0px, calc(2.61665676em - var(--ffsd)));
+    }
+
+    #n8Qeaz5O3BqMWrSM {
+        transform: translateX(0);
+        margin-top: calc(max(0px, 2.61665676em) * -0.1);
+        margin-bottom: calc(max(0px, 2.61665676em) * -0.1);
+    }
+
+    #TsMqRjpVANcjeUH5 {
+        min-width: 32.79175844rem;
+    }
+
+    #aadiDsR4tQrZ5WG1 {
+        grid-area: 10 / 11 / 12 / 16;
+    }
+
+    #zNBO9IgBF5qbBPnp {
+        grid-area: 15 / 4 / 16 / 5;
+    }
+
+    #TBOdkj4YhaNx5ZFc {
+        grid-template-columns: 4.16666667rem 0 6.65012066rem 8.24277812rem 5.67799585rem 0.97333024rem 0.95714086rem 10.08511413rem 23.71232455rem 2.64120795rem 0.79117728rem 11.64829187rem 0.05678703rem 1.40425702rem 18.82614108rem 0 4.16666669rem;
+        grid-template-rows: minmax(4.16666667rem, max-content) 0 minmax(4.92306868rem, max-content) minmax(5.34610066rem, max-content) minmax(6.539305rem, max-content) 0 0 minmax(1.80559702rem, max-content) 0 minmax(3.12120334rem, max-content) 0 0 minmax(3.43238523rem, max-content) minmax(12.02704844rem, max-content) minmax(3.35788112rem, max-content) minmax(25.19078766rem, max-content) minmax(4.16666667rem, max-content);
+    }
+
+    #EqgMZ6W5oQYDcgsn {
+        min-height: 100vh;
+    }
+}
+
+@media (min-width: 768.05px) and (max-width: 1024px) {
+    #eRZeLsY2F9AXkxgv {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    #bmjMAEIFswg9Ukj0 {
+        grid-template-columns: 0 100%;
+        grid-template-rows: 0 100%;
+    }
+
+    #cWJrvztVw0votIGh {
+        grid-area: 3 / 2 / 7 / 7;
+    }
+
+    #qTntDRlQmMutLI6X {
+        margin-left: 0%;
+        clip-path: polygon(calc(0% + 0%) calc((0 * 20.74825753rem) + 0%), calc(100% - (10.56723407% + 0%)) calc((0 * 20.74825753rem) + 0%), calc(100% - (10.56723407% + 0%)) calc(100% - ((0 * 20.74825753rem) + 0%)), calc(0% + 0%) calc(100% - ((0 * 20.74825753rem) + 0%)));
+        margin-top: 0%;
+        margin-bottom: 0%;
+        grid-area: 2 / 13 / 6 / 17;
+        margin-right: -11.81584172%;
+    }
+
+    #lVEpuJi5zEV6PQba {
+        min-width: 53.50640522rem;
+    }
+
+    #ZcIR57YRsx2j1QLB {
+        grid-area: 4 / 6 / 5 / 15;
+    }
+
+    #n6sitQRwRDRsyiOj {
+        grid-area: 8 / 8 / 17 / 14;
+    }
+
+    #eKL1ciZ3WtqGoygg {
+        grid-area: 13 / 10 / 14 / 12;
+    }
+
+    #GaRWpU26umUEXBvA {
+        font-size: max(0px, calc(2.67612623em - var(--ffsd)));
+    }
+
+    #UHDQrEd40E1WEJa1 {
+        transform: translateX(0);
+        margin-top: calc(max(0px, 2.67612623em) * -0.1);
+        margin-bottom: calc(max(0px, 2.67612623em) * -0.1);
+    }
+
+    #o5f4nZtfxIK39v8P {
+        min-width: 33.37590981rem;
+    }
+
+    #uu2osSNUMznt1HqA {
+        margin-left: -0.43016126%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        grid-area: 9 / 3 / 11 / 9;
+        margin-right: 0%;
+    }
+
+    #W7KmHMZX7dvpBEfR {
+        font-size: max(0px, calc(2.67612623em - var(--ffsd)));
+    }
+
+    #n8Qeaz5O3BqMWrSM {
+        transform: translateX(0);
+        margin-top: calc(max(0px, 2.67612623em) * -0.1);
+        margin-bottom: calc(max(0px, 2.67612623em) * -0.1);
+    }
+
+    #TsMqRjpVANcjeUH5 {
+        min-width: 33.51927001rem;
+    }
+
+    #aadiDsR4tQrZ5WG1 {
+        grid-area: 10 / 11 / 12 / 16;
+    }
+
+    #zNBO9IgBF5qbBPnp {
+        grid-area: 15 / 4 / 16 / 5;
+    }
+
+    #TBOdkj4YhaNx5ZFc {
+        grid-template-columns: 3.125rem 0 6.80125976rem 8.43011399rem 5.80704121rem 0.99545138rem 0.97889407rem 10.31432127rem 24.25124102rem 2.70123541rem 0.80915858rem 11.91302578rem 0.05807764rem 1.43617195rem 19.25400794rem 0 3.125rem;
+        grid-template-rows: minmax(3.61333372rem, max-content) 0 minmax(5.0349566rem, max-content) minmax(5.46760295rem, max-content) minmax(6.68792557rem, max-content) 0 0 minmax(1.84663331rem, max-content) 0 minmax(3.19213978rem, max-content) 0 0 minmax(3.51039398rem, max-content) minmax(12.30039045rem, max-content) minmax(3.4341966rem, max-content) minmax(25.76330557rem, max-content) minmax(3.61333372rem, max-content);
+    }
+
+    #EqgMZ6W5oQYDcgsn {
+        min-height: 100vh;
+    }
+}
+
+@media (min-width: 1024.05px) {
+    #eRZeLsY2F9AXkxgv {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    #bmjMAEIFswg9Ukj0 {
+        grid-template-columns: 0 100%;
+        grid-template-rows: 0 100%;
+    }
+
+    #cWJrvztVw0votIGh {
+        grid-area: 3 / 2 / 7 / 7;
+    }
+
+    #qTntDRlQmMutLI6X {
+        margin-left: 0%;
+        clip-path: polygon(calc(0% + 0%) calc((0 * 22.1314747rem) + 0%), calc(100% - (10.56723407% + 0%)) calc((0 * 22.1314747rem) + 0%), calc(100% - (10.56723407% + 0%)) calc(100% - ((0 * 22.1314747rem) + 0%)), calc(0% + 0%) calc(100% - ((0 * 22.1314747rem) + 0%)));
+        margin-top: 0%;
+        margin-bottom: 0%;
+        grid-area: 2 / 14 / 6 / 17;
+        margin-right: -11.81584172%;
+    }
+
+    #lVEpuJi5zEV6PQba {
+        min-width: 57.05801879rem;
+    }
+
+    #ZcIR57YRsx2j1QLB {
+        grid-area: 4 / 6 / 5 / 15;
+    }
+
+    #n6sitQRwRDRsyiOj {
+        grid-area: 8 / 8 / 17 / 13;
+    }
+
+    #eKL1ciZ3WtqGoygg {
+        grid-area: 13 / 10 / 14 / 12;
+    }
+
+    #GaRWpU26umUEXBvA {
+        font-size: max(0px, calc(2.73311127em - var(--ffsd)));
+    }
+
+    #UHDQrEd40E1WEJa1 {
+        transform: translateX(0);
+        margin-top: calc(max(0px, 2.73311127em) * -0.1);
+        margin-bottom: calc(max(0px, 2.73311127em) * -0.1);
+    }
+
+    #o5f4nZtfxIK39v8P {
+        min-width: 34.07334692rem;
+    }
+
+    #uu2osSNUMznt1HqA {
+        margin-left: -0.43016126%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        grid-area: 9 / 3 / 11 / 9;
+        margin-right: 0%;
+    }
+
+    #W7KmHMZX7dvpBEfR {
+        font-size: max(0px, calc(2.73311127em - var(--ffsd)));
+    }
+
+    #n8Qeaz5O3BqMWrSM {
+        transform: translateX(0);
+        margin-top: calc(max(0px, 2.73311127em) * -0.1);
+        margin-bottom: calc(max(0px, 2.73311127em) * -0.1);
+    }
+
+    #TsMqRjpVANcjeUH5 {
+        min-width: 34.2197598rem;
+    }
+
+    #aadiDsR4tQrZ5WG1 {
+        grid-area: 10 / 11 / 12 / 16;
+    }
+
+    #TBOdkj4YhaNx5ZFc {
+        grid-template-columns: 0 0 6.9460848rem 8.60962361rem 6.88526756rem 1.06181481rem 0 10.53395292rem 24.76764341rem 2.75875512rem 0.82638868rem 12.22601435rem 3.25298005rem 1.59386623rem 16.28390727rem 4.2537012rem;
+        grid-template-rows: minmax(1.11557748rem, max-content) 0 minmax(5.37062038rem, max-content) minmax(5.83210981rem, max-content) minmax(7.13378727rem, max-content) 0 0 minmax(1.88595525rem, max-content) 0 minmax(3.26011274rem, max-content) 0 0 minmax(3.5851438rem, max-content) minmax(12.56231317rem, max-content) minmax(3.50732388rem, max-content) minmax(26.31190564rem, max-content) minmax(6.34880562rem, max-content);
+    }
+
+    #EqgMZ6W5oQYDcgsn {
+        min-height: 100vh;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        background-color: rgba(226, 226, 226, 0.05);
+    }
+
+    50% {
+        background-color: rgba(226, 226, 226, 0.1);
+    }
+
+    100% {
+        background-color: rgba(226, 226, 226, 0.05);
+    }
+}
+    .animated {
+        animation-play-state: running !important;
+    }
+
+    @keyframes pulse {}
+
+
+
